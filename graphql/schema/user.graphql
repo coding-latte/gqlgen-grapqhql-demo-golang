@@ -1,0 +1,11 @@
+type User {
+  id: ID!
+  name: String!
+  screenname: String!
+  description: String!
+  followers_count: Int!
+  verified: Boolean!
+  favourites_count: Int!
+  listed_count: Int!
+  created_at: Time!
+}

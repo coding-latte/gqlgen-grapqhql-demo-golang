@@ -1,0 +1,7 @@
+input Post {
+  text: String!
+}
+
+type Mutation {
+  postTweet(post: Post!): Tweet!
+}

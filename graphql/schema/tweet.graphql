@@ -1,0 +1,13 @@
+# Time Scalar provided gqlgen, maps to time.Time in go
+scalar Time
+
+type Tweet {
+  id: ID!
+  text: String!
+  created_at: Time!
+  source: String!
+  user: User!
+  retweet_count: Int!
+  favorite_count: Int!
+  lang: String!
+}
