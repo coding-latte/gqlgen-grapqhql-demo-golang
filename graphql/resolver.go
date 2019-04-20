@@ -11,7 +11,20 @@ import (
 
 // THIS CODE IS A STARTING POINT ONLY. IT WILL NOT BE UPDATED WITH SCHEMA CHANGES.
 
-type Resolver struct{}
+type Resolver struct {
+	client *twitter.Client
+}
+
+// NewRootResolver - create a new resolver for graphql
+func NewRootResolver(client *twitter.Client) Config {
+	c := Config{
+		Resolvers: &Resolver{
+			client: client,
+		},
+	}
+
+	return c
+}
 
 func (r *Resolver) Mutation() MutationResolver {
 	return &mutationResolver{r}
