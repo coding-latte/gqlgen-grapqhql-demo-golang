@@ -7,7 +7,7 @@ COPY . .
 # Web Server Port
 ENV PORT=8080
 
-WORKDIR /app/graphql/server 
+WORKDIR /app/server 
 
 # use vendor directory, avoids downloading all the go packages on rebuild
 # run go mod vendor, to create vendor directory with necessary files
