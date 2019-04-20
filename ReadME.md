@@ -15,10 +15,10 @@ ACCESS_TOKEN=<KEY>
 ACCESS_SECRET=<KEY>
 ```
 
-**NB:** Replace the `<KEY>` with the corresponding key, inside the `.env` you just created.
+**NB:** Replace the `<KEY>` with the corresponding key from your Twitter App, inside the `.env` file you just created.
 
 ### How to run this demo
 
-The easiest way to run this demo is to use docker-compose, so make sure you have [docker](https://docs.docker.com/install/) installed on your device. And then run `docker-conpose up -d` to build and run the application.
+The easiest way to run this demo is to use docker-compose, so make sure you have [docker](https://docs.docker.com/install/) installed on your device. And then run `docker-conpose up -d` to build and run the graphql server.
 
 After that, open GraphQL Playground on your browser: http://localhost:8080
