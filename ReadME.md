@@ -1,4 +1,4 @@
-## GQLGEN GraphQL Demo using Twitter [In Progress ... ]
+## GQLGEN GraphQL Demo using Twitter API [In Progress ... ]
 
 This is a demo for graphql demo using [GQLGEN](http://gqlgen.com). I wanted to use a database for this demo, but then i thought, twitter would be better for such a task.  
 
@@ -22,3 +22,9 @@ ACCESS_SECRET=<KEY>
 The easiest way to run this demo is to use docker-compose, so make sure you have [docker](https://docs.docker.com/install/) installed on your device. And then run `docker-conpose up -d` to build and run the graphql server.
 
 After that, open GraphQL Playground on your browser: http://localhost:8080
+
+### TODO
+
+- [ ] Add Dataloader
+- [ ] Add Authentication (Not sure how yet)
+- [ ] Documentation
