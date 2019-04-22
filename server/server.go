@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/coding-latte/gqlgen-grapgql-demo"
 	"github.com/dghubble/go-twitter/twitter"
+	"github.com/mainawycliffe/gqlgen-grapgql-demo"
 	"log"
 	"net/http"
 	"os"

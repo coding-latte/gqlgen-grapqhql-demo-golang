@@ -1,4 +1,4 @@
-module github.com/coding-latte/gqlgen-grapgql-demo
+module github.com/mainawycliffe/gqlgen-grapgql-demo
 
 go 1.12
 
